@@ -1,0 +1,4 @@
+CREATE SCHEMA util
+    AUTHORIZATION lx;
+
+GRANT ALL ON SCHEMA util TO lx;

@@ -1,0 +1,4 @@
+CREATE SCHEMA audit
+    AUTHORIZATION lx;
+
+GRANT ALL ON SCHEMA audit TO lx;
