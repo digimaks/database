@@ -1,3 +1,5 @@
+-- SPDX-License-Identifier: EUPL-1.2
+
 CREATE OR REPLACE FUNCTION public.get_global_constant(constant_key character varying)
     RETURNS character varying
     LANGUAGE 'plpgsql'

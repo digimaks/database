@@ -1,3 +1,5 @@
+-- SPDX-License-Identifier: EUPL-1.2
+
 CREATE OR REPLACE PROCEDURE audit.create_audit_partition(
     IN pi_for_date date)
 LANGUAGE 'plpgsql'

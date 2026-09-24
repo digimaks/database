@@ -1,3 +1,5 @@
+-- SPDX-License-Identifier: EUPL-1.2
+
 CREATE OR REPLACE PROCEDURE audit.audit_person_data(
   pi_req_person_id character varying,
   pi_req_person_code character varying,

@@ -1,3 +1,5 @@
+-- SPDX-License-Identifier: EUPL-1.2
+
 CREATE OR REPLACE FUNCTION audit.get_physical_person_prefix()
     RETURNS character varying
     LANGUAGE 'plpgsql'

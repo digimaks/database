@@ -1,0 +1,10 @@
+version = 1
+
+[[annotations]]
+path = [
+  "modules/database-audit/versions/**",
+  "modules/database-util/versions/**",
+  "versions/**",
+]
+SPDX-FileCopyrightText = "SIA \"Dativa\""
+SPDX-License-Identifier = "EUPL-1.2"

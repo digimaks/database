@@ -1,3 +1,5 @@
+-- SPDX-License-Identifier: EUPL-1.2
+
 CREATE OR REPLACE FUNCTION audit.get_legal_entity_prefix(number_length integer)
     RETURNS character varying
     LANGUAGE 'plpgsql'

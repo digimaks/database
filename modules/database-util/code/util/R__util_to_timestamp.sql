@@ -1,3 +1,5 @@
+-- SPDX-License-Identifier: EUPL-1.2
+
 CREATE OR REPLACE FUNCTION util.to_timestamp(
 	pi_date character varying)
     RETURNS timestamp without time zone

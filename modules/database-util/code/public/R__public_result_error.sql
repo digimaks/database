@@ -1,3 +1,5 @@
+-- SPDX-License-Identifier: EUPL-1.2
+
 CREATE OR REPLACE FUNCTION public.result_error(pi_code text, pi_error text)
     RETURNS json
     LANGUAGE 'plpgsql'
